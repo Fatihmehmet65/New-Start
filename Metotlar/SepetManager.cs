@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metotlar
 {
-    internal class SepetManager
+    internal class SepetManager:Product
     {
 
         public void Ekle(Product urun)

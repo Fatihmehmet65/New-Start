@@ -21,7 +21,7 @@ namespace Metotlar
             urun2.Id = 2;
             urun2.Fiyatı = 19.500;
             urun2.Aciklama = "Yenilik Demek";
-
+            Product musterii = new SepetManager();
             Product[] product=new Product[] { urun1,urun2};
             foreach (var urun in product)
             {
